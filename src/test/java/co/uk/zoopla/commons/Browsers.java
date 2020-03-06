@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Browsers extends DriverLib
 {
-    //I'm writing a method to initialize my browsers. It's a method that returns a Webdriver therefore it is not void
+
 private WebDriver initChrome()
 {
     WebDriverManager.chromedriver().setup();

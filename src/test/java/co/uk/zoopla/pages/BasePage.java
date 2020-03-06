@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class BasePage extends DriverLib
 {
-    public String BASE_URL = "Zoopla.co.uk";
+    public String BASE_URL = "https://www.zoopla.co.uk/";
     public Select select;
 
     public void launchURL()
@@ -22,7 +22,7 @@ public class BasePage extends DriverLib
     public void selectByValue(WebElement element, String value)
     {
         select = new Select(element);
-        select.selectByValue(value);
+        select.selectByVisibleText(value);
     }
     public void selectByIndex(WebElement element,int index)
     {
