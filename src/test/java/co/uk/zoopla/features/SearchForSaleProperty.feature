@@ -14,7 +14,7 @@ Feature: Search For Sale Properties
     And I select "<Bed>" from Bedrooms dropdown
     And I click on Search button
     Then a list of "<PropertyType>" in "<Location>" are displayed
-
+    And I click on one of the results links
 
 
     Examples:
