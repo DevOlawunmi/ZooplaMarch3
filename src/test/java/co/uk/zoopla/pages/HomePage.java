@@ -45,6 +45,8 @@ public class HomePage extends BasePage
 
     public void enterLocation(String location)
     {
+        waitForElementToBeDisplayed(searchBox);
+        searchBox.clear();
         searchBox.sendKeys(location);
     }
 
