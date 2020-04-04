@@ -12,9 +12,10 @@ Feature: Search For Rent Properties
     And I select "<MaxPrice>" from Max price dropdown
     And I select "<Property>" from Property type dropdown
     And I select "<Bed>" from Bedrooms dropdown
+    And I accept all cookies
     And I click on Search button
     Then a list of "<PropertyType>" in "<Location>" are displayed
-    And I click on one of the results links
+   
 
 
     Examples:

@@ -16,18 +16,18 @@ private WebDriver initChrome()
     WebDriverManager.chromedriver().setup();
     return new ChromeDriver();
 }
-    private WebDriver initHeadlessChrome()
-    {
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-gpu","--headless");
-        return new ChromeDriver();
-    }
-    private WebDriver initFirefox()
-    {
-        WebDriverManager.firefoxdriver().setup();
-        return new FirefoxDriver();
-    }
+//    private WebDriver initHeadlessChrome()
+//    {
+//        WebDriverManager.chromedriver().setup();
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--disable-gpu","--headless");
+//        return new ChromeDriver();
+//    }
+//    private WebDriver initFirefox()
+//    {
+//        WebDriverManager.firefoxdriver().setup();
+//        return new FirefoxDriver();
+//    }
     public void launchBrowser(String browser)
     {switch (browser)
     {

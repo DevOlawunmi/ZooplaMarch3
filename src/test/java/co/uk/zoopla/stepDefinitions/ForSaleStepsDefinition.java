@@ -49,6 +49,10 @@ public class ForSaleStepsDefinition extends BasePage
     {
          homePage.selectNoOfBedrooms(beds);
     }
+    @When("I accept all cookies")
+    public void i_accept_all_cookies() {
+        homePage.cookieConsent();
+    }
 
     @When("I click on Search button")
     public void i_click_on_Search_button()

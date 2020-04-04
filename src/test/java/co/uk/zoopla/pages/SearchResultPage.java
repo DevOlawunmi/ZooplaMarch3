@@ -38,6 +38,7 @@ public class SearchResultPage extends BasePage
         Assert.assertTrue(title.contains(property));
     }
 
+
     public void isLocationDisplayed(String location)
     {
         String title = pageTitle.getText();

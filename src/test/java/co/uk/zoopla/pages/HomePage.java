@@ -1,5 +1,6 @@
 package co.uk.zoopla.pages;
 
+import co.uk.zoopla.commons.DriverLib;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,7 +11,7 @@ public class HomePage extends BasePage
 {
     public HomePage (WebDriver driver)
     {
-        this.driver = driver;
+        DriverLib.driver = driver;
         PageFactory.initElements(driver,this);
     }
     @FindBy(id = "search-input-location")
@@ -25,6 +26,17 @@ public class HomePage extends BasePage
     private WebElement minPrice;
     @FindBy(css = ".button.button--primary")
     private WebElement searchButton;
+    @FindBy (id = "cookie-consent-form")
+    private WebElement consentForm;
+    @FindBy (xpath = "//*[@id=\"cookie-consent-form\"]/div/div/div/button[2]                                                                                                                                                                                                                  ")
+    private WebElement acceptCookies;
+
+
+    public void cookieConsent(){
+        waitForElementToBeDisplayed(consentForm);
+        acceptCookies.click();
+    }
+
 
 
 
@@ -34,6 +46,7 @@ public class HomePage extends BasePage
     }
 
     public void selectMaximumPrice(String maxiPrice)
+
     {
         selectByText(maxPrice, maxiPrice);
     }
@@ -51,6 +64,7 @@ public class HomePage extends BasePage
     }
 
     public void selectMinimumPrice(String miniPrice)
+
     {
         selectByText(minPrice, miniPrice);
     }

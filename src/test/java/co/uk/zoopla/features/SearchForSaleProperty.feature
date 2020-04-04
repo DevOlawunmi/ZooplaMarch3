@@ -1,3 +1,4 @@
+@ignore
 Feature: Search For Sale Properties
   As a customer
   I want the ability to search for properties for sale
@@ -13,6 +14,7 @@ Feature: Search For Sale Properties
     And I select "<Property>" from Property type dropdown
     And I select "<Bed>" from Bedrooms dropdown
     And I click on Search button
+    And I accept all cookies
     Then a list of "<PropertyType>" in "<Location>" are displayed
     And I click on one of the results links
 
