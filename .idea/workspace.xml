@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69879882-c952-4db6-a257-456c38c26050" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/commons/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/commons/Browsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/commons/DriverLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/commons/DriverLib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForRentProperty.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForRentProperty.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForSaleProperty.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForSaleProperty.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/ForSaleStepsDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/ForSaleStepsDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583694065411</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ignore tag added">
+      <created>1585975899102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585975899102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,49 +188,50 @@
     <MESSAGE value="URL Successfully launched" />
     <MESSAGE value="Zoopla end to end passed" />
     <MESSAGE value="Tags added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tags added" />
+    <MESSAGE value="Ignore tag added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignore tag added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583555096545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1583555096545" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583694064571">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1585975898471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583694064571" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585975898471" />
     <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1583295723785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583295723785" />
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1585975832394">
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1587096151567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585975832394" />
-    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1585975832394">
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587096151567" />
+    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1587096151567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585975832394" />
-    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1585975832394">
+    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587096151567" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1587096151567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585975832394" />
-    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1585975832394">
+    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587096151567" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1587096151567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585975832394" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587096151567" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1584247266617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584247266617" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1583694084524">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1585975901690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583694084524" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1584671127948">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585975901690" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1587259323485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584671127948" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587259323485" />
     <state x="209" y="109" key="new project wizard" timestamp="1584584475732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -8,6 +8,7 @@ Feature: Search For Sale Properties
     Given I navigate to zoopla homepage
 
   Scenario Outline: Customer can search for any property
+
     When I enter a "<Location>" in the search text box
     And I select "<MinPrice>" from Min price dropdown
     And I select "<MaxPrice>" from Max price dropdown
