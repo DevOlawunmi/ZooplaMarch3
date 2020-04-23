@@ -9,13 +9,13 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Hook extends Browsers
 {
-    private String defaultBrowser = "Chrome";
     //this obj scenario looks at the outcome of each scenario and stores it in memory
 
     private Scenario scenario;
     @Before
     public void setUp(Scenario scenario)
     {   this.scenario = scenario;
+        String defaultBrowser = "Chrome";
         launchBrowser(defaultBrowser);
     }
     @After
