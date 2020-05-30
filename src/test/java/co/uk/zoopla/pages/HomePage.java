@@ -37,9 +37,6 @@ public class HomePage extends BasePage
         acceptCookies.click();
     }
 
-
-
-
     public void selectNoOfBedrooms(String beds)
     {
         selectByText(noOfBed, beds);
@@ -66,9 +63,7 @@ public class HomePage extends BasePage
     public void selectMinimumPrice(String miniPrice)
 
     {
-        selectByText(minPrice, miniPrice);
-    }
-
+        selectByText(minPrice, miniPrice);    }
 
 
     public SearchResultPage clickOnSearchButton()
