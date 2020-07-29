@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69879882-c952-4db6-a257-456c38c26050" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForRentProperty.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForRentProperty.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590819914566</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Base Page completed">
+      <created>1592799022862</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592799022862</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Good work">
+      <created>1592799156138</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592799156138</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,48 +239,46 @@
     <MESSAGE value="Feature updated" />
     <MESSAGE value="Hook updated" />
     <MESSAGE value="Browsers Class updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Browsers Class updated" />
+    <MESSAGE value="Base Page completed" />
+    <MESSAGE value="Good work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Good work" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1592799022192">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1592799155621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592799022192" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592799155621" />
     <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1589427091989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589427091989" />
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1592629818416">
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1595997927301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592629818416" />
-    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1592629818416">
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595997927301" />
+    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1595997927300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592629818416" />
-    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1592629818416">
+    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595997927300" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1595997927300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592629818416" />
-    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1592629818416">
+    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595997927300" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1595997927301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592629818416" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1584247266617">
+    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595997927301" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1592799158443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584247266617" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1592799025172">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592799158443" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1595992440644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592799025172" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1592797994198">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595992440644" />
+    <state x="209" y="109" key="new project wizard" timestamp="1593841817154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592797994198" />
-    <state x="209" y="109" key="new project wizard" timestamp="1592534146827">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1592534146827" />
+    <state x="209" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593841817154" />
   </component>
 </project>
