@@ -40,6 +40,7 @@ private WebDriver initChrome()
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
+        System.out.println("Launch successful");
 
     }
     public void closeBrowser(){
