@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69879882-c952-4db6-a257-456c38c26050" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/commons/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/commons/Browsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForRentProperty.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForRentProperty.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForSaleProperty.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/SearchForSaleProperty.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595997979611</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Search feature tweaked">
+      <created>1596679771249</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1596679771249</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,41 +257,38 @@
     <MESSAGE value="Base Page completed" />
     <MESSAGE value="Good work" />
     <MESSAGE value="Search Location updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search Location updated" />
+    <MESSAGE value="Search feature tweaked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search feature tweaked" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1595997978955">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1596679770245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595997978955" />
-    <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1589427091989">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596679770245" />
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1596680545815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589427091989" />
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1596679702902">
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596680545815" />
+    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1596680545815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596679702902" />
-    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1596679702902">
+    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596680545815" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1596680545815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596679702902" />
-    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1596679702902">
+    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596680545815" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1596680545815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596679702902" />
-    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1596679702902">
+    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596680545815" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1596679774255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596679702902" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1595997981925">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596679774255" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1599878288008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595997981925" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1596071815940">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596071815940" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599878288008" />
     <state x="209" y="109" key="new project wizard" timestamp="1593841817154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

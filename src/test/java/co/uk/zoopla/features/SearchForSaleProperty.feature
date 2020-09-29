@@ -6,6 +6,7 @@ Feature: Search For Sale Properties
 
   Background:
     Given I navigate to zoopla homepage
+    And I accept all cookies
 
   Scenario Outline: Customer can search for any property
 
@@ -15,7 +16,6 @@ Feature: Search For Sale Properties
     And I select "<Property>" from Property type dropdown
     And I select "<Bed>" from Bedrooms dropdown
     And I click on Search button
-    And I accept all cookies
     Then a list of "<PropertyType>" in "<Location>" are displayed
     And I click on one of the results links
 
